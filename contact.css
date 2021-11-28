@@ -1,0 +1,413 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+
+#mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+  }
+
+/* The about link: 20px from the top with a green background */
+#home {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+
+/* The about link: 80px from the top with a green background */
+#about {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+
+/* The about link: 140px from the top with a green background */  
+#contact {
+    top: 140px;
+    background-color: #555 /* Light Black */
+  }
+
+/* Background Image */
+body{
+    background-image: url(https://img.freepik.com/free-vector/green-sand-paper_53876-86281.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body> 
+    <!-- Vertical Navigation Bar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="home.html" id="home">Home</a>
+        <a href="about.html" id="about">About Us</a>
+        <a href="contact.html" id="contact">Contact</a>
+    </div>
+    <!-- About Us Page -->
+    <h1>ABOUT US</h1>
+    <!-- Paragraph -->
+    <p id="us" style="text-align: justify;font-weight: 900;padding: 40px;line-height: 27px;"> <span style="color:blue">Children Charity</span> is an innovative learning organization created to improve the quality of education in India. Established in 2020 to provide education to poor children, Our Children Charity has grown in both scope and scale, with programs today reaching children and youth across the country.<br><br>
+    As one of the largest non-governmental organizations in the country, Children Charity focuses on high-quality, low-cost and replicable interventions to address gaps in the education system. Working  directly with children and youth as well as through large-scale collaborations with government systems, Children Charity programs reach millions of lives every year. Children Charity's Teaching at the Right Level (TaRL) approach has demonstrated proven impact on children's learning outcomes and is now being adapted to contexts outside India.</p>
+    <!-- Background Image -->
+    <img src="https://cdn.slidesharecdn.com/ss_thumbnails/childreneducationcharity-150409075101-conversion-gate01-thumbnail-4.jpg?cb=1428566133" alt="" class="center" style="height:250px;">
+</body>
+</html> 
+ /* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+
+#mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+  }
+
+/* The about link: 20px from the top with a green background */
+#home {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+
+/* The about link: 80px from the top with a green background */
+#about {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+
+/* The about link: 140px from the top with a green background */
+#contact {
+    top: 140px;
+    background-color: #555 /* Light Black */
+  }
+
+h1{
+    padding-right: 40px;
+  }
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/contact-us_36325-2135.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* Mobile number font */
+#mobile{
+    font-weight:bolder;
+    padding-left:10px;
+  }
+
+/*Gmail font */
+#gmail{
+    font-weight:bolder;
+    padding-left:10px;
+  }
+
+/* Insta Id Font */
+#insta{
+    font-weight:bolder;
+    padding-left:10px;
+  }
+
+/*Address Font  */
+#location{
+    font-weight:bolder;
+    padding-left:10px;
+  } 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Vertical Navigation Bar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="home.html" id="home">Home</a>
+        <a href="about.html" id="about">About Us</a>
+        <a href="contact.html" id="contact">Contact</a>
+    </div>
+    <div class="center">
+    <h1>CONTACT</h1>
+    <!--For Call -->
+    <img src="https://icon-library.com/images/icon-of-phone/icon-of-phone-10.jpg" alt="" style="border-radius:50%;height:50px;width:100px"><span id="mobile">8976543210</span>
+    <br><br>
+    <!-- Gmail -->
+    <img src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png" alt="" style="border-radius:50%;height:50px;width:100px"><span id="gmail">childrencharity@gmail.com</span>
+    <br><br>
+    <!-- Insta page -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="" style="border-radius:50%;height:50px;width:100px"><span id="insta">Children__charity</span>
+    <br><br>
+    <!-- Address -->
+    <img src="https://4.imimg.com/data4/RF/BD/MY-979637/address-verification-service-500x500.png?w=640" alt="" style="border-radius:50%;height:50px;width:100px"><span id="location">11/w,Civil street,Jaipur</span>
+    </div>
+</body>
+</html> 
+ /* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+
+  #mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+  }
+
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+
+  /* The about link: 80px from the top with a green background */
+  #about {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+
+  /* The about link: 140px from the top with a green background */
+  #contact {
+    top: 140px;
+    background-color: #555 /* Light Black */
+  }
+  #name{
+    padding-left:30px;
+  }
+
+  body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWyw_f-BUslklC3of5LEjNzrX6LbmHDfIkGQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover;
+  } 
+
+  /* Quote style */
+  h2{
+    text-align: center;
+    font-size: bold;
+    color: white;
+    font-style: italic;
+    font-weight:900;
+  } 
+
+  /* Author */
+  h5{
+    text-align: center;
+    font-size: bold;
+    color: white;
+    font-style: italic;
+    font-weight:900;
+    padding-left: 340px;
+  }
+
+  /* Information */
+  h3{
+    text-align: center;
+    font-size: bold;
+    color: white;
+    font-style: italic;
+    font-weight: 1200px;
+    padding:20px;
+  }
+
+  /* For navigation purpose */
+  a{
+    text-decoration: none;
+    color:rgb(144, 204, 47);
+    padding-left: 650px;
+  }
+
+  h1{
+    color: rgb(32, 125, 148);
+  }
+
+  /* Donate button */
+  .button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5.5px 11px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  .button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+  }
+  .button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; 
+  } 
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!--Vertical Navigation Bar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="home.html" id="home"><button>Home</button></a>
+        <a href="about.html" id="about"><button>About</button></a>
+        <a href="contact.html" id="contact"><button>Contact</button></a>
+    </div>
+    <!-- Background image -->
+    <img src="charity.jpg" style="height:700px;width:1130px"> 
+      <!-- Quote -->
+    <h2>No one has ever become poor from giving </h2>
+    <h5>-Raghav Tiwari</h5><br>
+    <!-- Information -->
+    <h3>This website is created to help those children who came from poor background to continue their studies and to achieve their dreams</h3>
+    <br>
+    <!-- Donate button -->
+    <div class="center">
+        <br>
+        <br>
+        <button><form><script src="https://checkout.razorpay.com/v1/payment-button.js"data-payment_button_id="pl_HUizf1CPGFS2uj" async> </script> </form></button>
+    </div>
+</body>
+</html> 
+ 
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  right: -100px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+/* The about link: 80px from the top with a green background */
+#about {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+/* The about link: 140px from the top with a green background */
+#contact {
+  top: 140px;
+  background-color: #555 /* Light Black */
+}
+#name{
+  padding-left:30px;
+}
+/* Payment Gateway Integration style */
+
+h1{
+    color: black;
+    text-align: center;
+  }
+body{
+    background-color:lightblue;
+  }
+
+/* Self Introduction */
+#intro{
+    padding-left: 1050px;
+    padding-top:50px;
+  }
+
+/* For organizing intro at bottom-right */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+ }
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+/* For highlighting particular text */
+mark {
+    background-color: rgb(0, 217, 255);
+    color: black;
+  }
+
+/* Navigation to home page */
+a{
+    padding-left:1150px;
+    text-decoration: none;
+  } 
